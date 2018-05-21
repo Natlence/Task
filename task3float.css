@@ -10,6 +10,7 @@
 {
 	color:white;
 	text-align:center;
+	margin:50px 150px;
 }
 .left
 {
@@ -26,5 +27,5 @@
 }
 .bottom
 {
-	margin:50px 200px;
+	margin:150px;
 }
