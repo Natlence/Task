@@ -1,0 +1,36 @@
+.body
+{
+	background-color:#00CED1;
+}
+.logo
+{
+	text-align:center;
+	margin-top:70px;
+}
+.discribe
+{
+	color:white;
+	text-align:center;
+	margin:50px;
+}
+.bottom
+{
+	position:relative;
+	right,left:50px;
+}
+.left
+{
+	display:inline-block;
+	position:absolute;
+	left:20%;
+	color:white;
+	margin-top:100px;
+}
+.right
+{
+	color:white;
+	display:inline-block;
+	position:absolute;
+	right:20%;
+	margin-top:100px;
+}
