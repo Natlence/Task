@@ -1,4 +1,4 @@
-        .body
+.body
 	    {
 	    	margin:0;
 	    	padding:0;
@@ -8,13 +8,14 @@
 			background-color:#00CED1;
 			position:fixed;
 			color:white;
-			display:inline-block;
 			width:100%;
-			height:8.5%;
+			height:8%;
 		}
 		.lefttop
 		{
-			margin-left:4%;
+			position:absolute;
+			left:5%;
+			top:10%;
 			font-size:16px;
 			font-weight:bolder;
 		}
@@ -22,7 +23,7 @@
 		{
 			position:absolute;
 			left:47.5%;
-			top:0;
+			top:10%;
 			font-size:16px;
 			font-weight:bolder;
 		}
@@ -30,7 +31,7 @@
 		{
 			position:absolute;
 			left:88%;
-			top:0;
+			top:10%;
 			font-size:16px;
 			font-weight:bolder;
 		}
@@ -38,7 +39,7 @@
 		{
 			position:absolute;
 			left:13px;
-			top:18px;
+			top:35%;
 			z-index:5;
 			background-image: url(pic/iphone.png);
 			width:20px;
@@ -58,15 +59,18 @@
 		.number_input
 		{
 			color:grey;
-			margin:20px;
-			width:90%;
+			position:absolute;
+			padding:0;
+			top:0;
 			border:none;
+			width:90%;
+			height:100%;
 		}
 		.icon_lock
 		{
             position:absolute;
 			left:13px;
-			top:18px;
+			top:35%;
 			z-index:5;
 			background-image: url(pic/locked2.png);
 			width:20px;
@@ -86,21 +90,34 @@
 		.password_input
 		{
 			color:grey;
-			margin:20px;
-			width:90%;
+			position:absolute;
 			border:none;
+			top:0;
+			padding:0;
+			width:90%;
+			height:100%;
 		}
 		.login
 		{
 			background-color:#00CED1;
-			color:white;
 			position:fixed;
 			top:30%;
 			width:100%;
 			height:7.5%;
+			font-weight:bolder;
+			font-size:16px;
+		}
+		.login_words
+		{
+			position:absolute;
+			left:47.5%;
+			top:35%;
 			font-size:16px;
 			font-weight:bolder;
+			background-color:#00CED1;
+			color:white;
 			border:none;
+			padding:0;
 		}
 		.forget
 		{
