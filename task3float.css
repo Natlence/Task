@@ -10,22 +10,22 @@
 {
 	color:white;
 	text-align:center;
-	margin:50px 150px;
+	margin:50px 50px;
 }
 .left
 {
 	color:white;
-	margin-top:100px;
-	margin-left:0;
+	display:inline-block;
+	margin-left:20px;
 }
 .right
 {
 	color:white;
 	float:right;
-	margin-top:-100px;
 	margin-right:0;
+	text-align:center;
 }
 .bottom
 {
-	margin:150px;
+	margin:100px 50px;
 }
