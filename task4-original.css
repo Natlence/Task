@@ -1,4 +1,4 @@
-.body
+        .body
 	    {
 	    	margin:0;
 	    	padding:0;
@@ -22,7 +22,8 @@
 		.middletop
 		{
 			position:absolute;
-			left:47.5%;
+			left:50%;
+			margin-left:-28px;
 			top:10%;
 			font-size:16px;
 			font-weight:bolder;
@@ -38,7 +39,8 @@
 		.icon_phone
 		{
 			position:absolute;
-			left:13px;
+			left:1.5%;
+			margin-left:-10px;
 			top:35%;
 			z-index:5;
 			background-image: url(pic/iphone.png);
@@ -63,14 +65,16 @@
 			padding:0;
 			top:0;
 			border:none;
-			width:90%;
+			right:0;
+			width:97%;
 			height:100%;
 		}
 		.icon_lock
 		{
-                        position:absolute;
-			left:13px;
-			top:30%;
+            position:absolute;
+			left:1.5%;
+			margin-left:-10px;
+			top:33%;
 			z-index:5;
 			background-image: url(pic/locked2.png);
 			width:20px;
@@ -93,8 +97,9 @@
 			position:absolute;
 			border:none;
 			top:0;
+			right:0;
 			padding:0;
-			width:90%;
+			width:97%;
 			height:100%;
 		}
 		.login
@@ -110,8 +115,9 @@
 		.login_words
 		{
 			position:absolute;
-			left:47.5%;
+			left:50%;
 			top:35%;
+			margin-left:-28px;
 			font-size:16px;
 			font-weight:bolder;
 			background-color:#00CED1;
