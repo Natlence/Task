@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TASK4</title>
+	<link rel="stylesheet" type="text/css" href="task4.css">
+</head>
+<body class="body">
+	<header>
+		<div class="topline">
+			<p class="left">注册</p>
+			<p class="mid">登录</p>
+			<p class="right">关闭</p>
+		</div>
+	</header>
+	<main>
+		<div class="number">
+			<i class="icon_number"></i>
+			<input class="number_input" type="text" name="firstname" value="请输入手机号"onkeydown="if (event.keyCode==13) {}" onblur="if(this.value=='')value='请输入手机号';" onfocus="if(this.value=='请输入手机号')value='';" value="请输入手机号">
+		</div>
+		<div class="password">
+			<i class="icon_lock"></i>
+			<input class="password_input" type="password" name="secret" placeholder="请输入密码" onkeydown="if (event.keyCode==13) {}" onblur="if(this.placeholder=='')placeholder='请输入密码';" onfocus="if(this.placeholder=='请输入密码')placeholder='';" placeholder="请输入密码" >
+		</div>
+	</main>
+	<footer>
+		<div class="login">
+			<p class="bottom">登录</p>
+		</div>
+		<div>
+			<u class="forget">忘记密码</u>
+		</div>
+	</footer>
+</body>
+</html>
