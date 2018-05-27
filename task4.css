@@ -58,17 +58,18 @@
 	height:20px;
 	position:absolute;
 	top:100px;
-	right:97%;
+	left:20px;
 }
 .number_input
 {
 	color:grey;
 	border:none;
-	height:60px;
 	padding:0;
-	margin-left:5%;
-	width:95%;
+	height:60px;
+	margin-left:50px;
 	position:fixed;
+	right:0;
+	width:calc(100% - 50px);
 }
 .icon_lock
 {
@@ -77,16 +78,18 @@
 	height:20px;
 	position:absolute;
 	top:180px;
-	right:97%;
+	left:20px;
 }
 .password_input
 {
 	color:grey;
 	border:none;
-	width:95%;
-	height:60px;
 	padding:0;
-	margin-left:5%;
+	height:60px;
+	margin-left:50px;
+	position:fixed;
+	right:0;
+	width:calc(100% - 50px);
 }
 .bottom
 {
