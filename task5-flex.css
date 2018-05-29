@@ -1,0 +1,189 @@
+.body
+{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.head
+{
+	height:50px;
+	background-color:#5fc0cd;
+	position:fixed;
+	width:calc(100%);
+	z-index:5;
+}
+.headwords
+{
+	color:white;
+	display:inline-block;
+	margin:0;
+	position:relative;
+	left:50%;top:15px;
+	margin-left:-32px;
+}
+.headpic
+{
+	height:20px;width:20px;
+	position:absolute;
+	left:10px;
+	top:15px;
+}
+.headshow
+{
+    background-image:url(pic/护工头像.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+	height:200px;
+	width:calc(100%);
+	position:absolute;
+	top:50px;
+}
+.mainhead
+{
+	position:absolute;
+	top:60px;left:20px;
+}
+.mainwords
+{
+	color:white;
+	position:absolute;
+	height:100px;
+	width:150px;
+	top:80px;
+	left:150px;
+}
+.wordspic
+{
+	height:18px;
+	width:15px;
+	position:absolute;
+	top:25px;
+}
+.line1
+{
+	font-size:16px;
+}
+.line2
+{
+	position:absolute;
+	top:24px;
+	left:25px;
+	font-size:12px;
+}
+.skill
+{
+	height:400px;
+	width:calc(100%);
+	display:flex;
+	flex-direction: column;
+	position:absolute;
+	top:250px;
+}
+.first,.second,.third,.fouth,.fifth
+{
+	height:60px;
+	border:#e1e5e7;
+	border-bottom-style:solid;
+}
+.blue
+{
+	height:20px;width:5px;
+	background-color:#5fc0cd;
+	display:inline-block;
+	margin:20px 20px 0 15px;
+}
+.firstwords
+{
+	display:inline-block;
+	font-size:14px;
+	margin:0;
+	position:absolute;
+	top:20px;
+	left:28px;
+}
+.seconddis
+{
+	margin:20px 0px 0px 10px;
+}
+.home,.din
+{
+	display:inline-block;
+	font-size:14px;
+	margin:0;
+	position:relative;
+	top:-4px;
+}
+.thirdwords1,.thirdwords2,.fouthwords1,.fouthwords2,.fifthwords1,.fifthwords2,.sixwords1
+{
+	color:#b4b4b4;
+	font-size:14px;
+	display:inline-block;
+}
+.thirdwords1,.fouthwords1,.fifthwords1,.sixwords1
+{
+	margin:20px 0px 0px 10px;
+}
+.thirdwords2,.fouthwords2,.fifthwords2
+{
+	position:relative;
+	left:28px;
+	color:black;
+}
+.thirdgrey,.fouthgrey,.fifthgrey,.sixgrey
+{
+	height:30px;width:1px;
+	background-color:#b4b4b4;
+	display:inline-block;
+	position:relative;
+	left:15px;top:10px;
+}
+.fifthwords2
+{
+	color:red;
+}
+.six
+{
+	position:relative;
+}
+.sixwords2
+{
+	display:flex;
+	font-size:14px;
+	position:absolute;
+	top:6px;
+	left:105px;
+}
+.foot
+{
+	height:80px;
+	background-color:white;
+	width:calc(100%);
+	display:flex;
+	position:absolute;
+	top:800px;
+}
+.footword1,.footword2
+{
+	border-color:#5fc0cd;
+	border-style:solid;
+	height:50px;
+	width:calc(100% - 10px);
+	border-radius:8px;
+	text-align:center;
+	font-size:18px;
+	margin:15px;
+}
+.footword1
+{
+	color:#5fc0cd;
+}
+.footword2
+{
+	background-color:#5fc0cd;
+	color:white;
+}
+.footword
+{
+	margin:10px;
+}
