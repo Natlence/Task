@@ -81,6 +81,8 @@
 	flex-direction: column;
 	position:absolute;
 	top:250px;
+	margin-bottom:80px;
+	padding-bottom:100px;
 }
 .first,.second,.third,.fouth,.fifth
 {
@@ -122,7 +124,7 @@
 	font-size:14px;
 	display:inline-block;
 }
-.thirdwords1,.fouthwords1,.fifthwords1,.sixwords1
+.thirdwords1,.fouthwords1,.fifthwords1
 {
 	margin:20px 0px 0px 10px;
 }
@@ -146,29 +148,34 @@
 }
 .six
 {
-	/*position:relative;*/
-	border:#e1e5e7;
+	display:flex;
+    border:#e1e5e7;
 	border-bottom-style:solid;
-	/*height:auto;*/
-}
+	position:relative;
 
+}
+.sixwords1,.sixgrey
+{
+	flex:none;
+	margin:0;
+	position:absolute;
+	top:50%;
+}
+.sixwords1
+{
+	margin:-10px 0 0 10px;
+}
+.sixgrey
+{
+	margin-top:-15px;
+	left:85px;
+}
 .sixwords2
 {
-	display:flex;
 	font-size:14px;
-	padding-left:105px;
-	position:relative;
-	top:-39px;
-	/*border:#e1e5e7;
-	border-bottom-style:solid;*/
-	/*height:auto;*/
-}
-/*.f
-{
-	height:80px;
-	background-color:white;
-	width:calc(100%);
-	display:flex;
+    flex:1;
+    position:relative;
+    left:105px;
 }
 .foot
 {
@@ -178,6 +185,7 @@
 	display:flex;
 	position:fixed;
 	bottom:0;
+	clear:both;
 }
 .footword1,.footword2
 {
@@ -202,4 +210,4 @@
 .footword
 {
 	margin:10px;
-}*/
+}
