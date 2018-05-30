@@ -42,7 +42,8 @@
 .mainhead
 {
 	position:absolute;
-	top:60px;left:20px;
+	top:50%;left:20px;
+	margin-top:-40px;
 }
 .mainwords
 {
@@ -50,7 +51,8 @@
 	position:absolute;
 	height:100px;
 	width:150px;
-	top:80px;
+	margin-top:-10px;
+	top:50%;
 	left:150px;
 }
 .wordspic
@@ -144,15 +146,29 @@
 }
 .six
 {
-	position:relative;
+	/*position:relative;*/
+	border:#e1e5e7;
+	border-bottom-style:solid;
+	/*height:auto;*/
 }
+
 .sixwords2
 {
 	display:flex;
 	font-size:14px;
-	position:absolute;
-	top:6px;
-	left:105px;
+	padding-left:105px;
+	position:relative;
+	top:-39px;
+	/*border:#e1e5e7;
+	border-bottom-style:solid;*/
+	/*height:auto;*/
+}
+/*.f
+{
+	height:80px;
+	background-color:white;
+	width:calc(100%);
+	display:flex;
 }
 .foot
 {
@@ -160,8 +176,8 @@
 	background-color:white;
 	width:calc(100%);
 	display:flex;
-	position:absolute;
-	top:800px;
+	position:fixed;
+	bottom:0;
 }
 .footword1,.footword2
 {
@@ -186,4 +202,4 @@
 .footword
 {
 	margin:10px;
-}
+}*/
