@@ -183,6 +183,7 @@
 	position:fixed;
 	bottom:0;
 	clear:both;
+	z-index:5;
 }
 .footword1,.footword2
 {
