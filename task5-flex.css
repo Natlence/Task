@@ -50,7 +50,6 @@
 	color:white;
 	position:absolute;
 	height:100px;
-	width:150px;
 	margin-top:-10px;
 	top:50%;
 	left:150px;
@@ -78,7 +77,6 @@
 	width:100%;
 	position:absolute;
 	top:250px;
-	z-index:5;
 	margin-bottom:85px;
 }
 .first,.second,.third,.fouth,.fifth
@@ -173,7 +171,6 @@
     position:relative;
     left:105px;
     width:calc(100% - 105px);
-    z-index:5;
 }
 .foot
 {
@@ -184,7 +181,6 @@
 	position:fixed;
 	bottom:0;
 	clear:both;
-	z-index:5;
 }
 .footword1,.footword2
 {
@@ -196,7 +192,6 @@
 	text-align:center;
 	font-size:18px;
 	margin:15px;
-	z-index:5;
 }
 .footword1
 {
