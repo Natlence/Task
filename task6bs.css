@@ -1,0 +1,199 @@
+.body
+{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.head
+{
+	height:50px;
+	background-color:#5fc0cd;
+	position:fixed;
+	width:100%;
+	z-index:5;
+}
+.headword1,.headword2
+{
+	display:inline-block;
+	height:30px;
+	width:60px;
+	border-radius:5px;
+	position:relative;
+	top:10px;
+}
+.headword1
+{
+	background:#93b9cc;
+	left:50%;
+	margin:-60px;
+}
+.headword2
+{
+	background:white;
+	left:50%;
+	margin-left:55px;
+}
+.headword1>p,.headword2>p
+{
+	color:white;
+	display:inline-block;
+	margin:0;
+	position:relative;
+	top:4.6px;
+	left:6px;
+}
+.headword2>p
+{
+	color:#5fc0cd;
+}
+.headpic
+{
+	height:30px;width:30px;
+	position:absolute;
+	right:20px;
+	top:10px;
+}
+.topnav
+{
+	height:45px;
+	width:100%;
+	border:#e1e5e7 1px;
+	border-bottom-style:solid;
+	position:absolute;
+	top:50px;
+}
+.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4
+{
+	text-align:center;
+	color:grey;
+	margin:0;
+	height:45px;
+}
+#dropdownMenu
+{
+	border:none;
+	position:relative;
+	top:6.5px;
+	color:grey;
+	width:100%;
+	min-width:100%;
+}
+#tnav2
+{
+	border-left:1px solid #e1e5e7;
+	border-right:1px solid #e1e5e7 ;
+}
+.tword
+{
+	position:relative;
+	top:12.5px;
+}
+.bottomnav
+{
+	height:80px;
+	width:100%;
+	border:#e1e5e7 1px;
+	border-top-style:solid;
+	display:flex;
+	position:fixed;
+	bottom:0;
+	clear:both;
+	background:white;
+}
+.content
+{
+	width:100%;
+	position:absolute;
+	top:96px;
+	margin-bottom:85px;
+}
+.one,.two,.three,.four,.five
+{
+	height:100px;
+	border:#e1e5e7;
+	border-bottom-style:solid;
+	position:relative;
+}
+.one>p,.two>p,.three>p,.four>p,.five>p
+{
+	margin:0px;
+}
+.time,.address
+{
+	color:grey;
+	font-size:14px;
+	display:inline-block;
+}
+.time
+{
+	position:relative;
+	left:10px;
+	top:7px;
+}
+.date
+{
+	position:relative;
+	top:10px;
+	left:47px;
+}
+.address
+{
+	position:relative;
+	left:10px;
+	top:7px;
+}
+.money
+{
+	color:red;
+	display:inline-block;
+	margin:0px;
+	position:absolute;
+	top:42px;
+	right:90px;
+}
+.timepic,.addresspic
+{
+	display:inline-block;
+	position:relative;
+	top:5px;
+	left:10px;
+}
+.moneypic
+{
+	height:25px;
+	position:absolute;
+	top:44px;
+	right:50px;
+}
+.bnav1
+{
+	position:relative;
+	top:10px;
+	left:25%;
+}
+.bnav3
+{
+	position:absolute;
+	top:10px;
+	right:25%;
+}
+.bnav1pic,.bnav3pic
+{
+	height:35px;
+	width:35px;
+}
+.bnav2pic
+{
+	position:absolute;
+	margin:-30px;
+	left:50%;
+	top:50%;
+	height:60px;
+	width:60px;
+}
+.bnavwords
+{
+	margin:0;
+	color:grey;
+}
