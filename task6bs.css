@@ -128,20 +128,21 @@
 .time
 {
 	position:relative;
-	left:10px;
-	top:7px;
+	left:42px;
+	top:5.4px;
 }
 .date
 {
-	position:relative;
-	top:10px;
-	left:47px;
+	display:inline-block;
+	position:absolute;
+	top:34.8px;
+	left:42px;
 }
 .address
 {
-	position:relative;
-	left:10px;
-	top:7px;
+	position:absolute;
+	left:42px;
+	bottom:5.4px;
 }
 .money
 {
@@ -149,21 +150,28 @@
 	display:inline-block;
 	margin:0px;
 	position:absolute;
-	top:42px;
+	top:34.8px;
 	right:90px;
 }
-.timepic,.addresspic
+.timepic
 {
 	display:inline-block;
-	position:relative;
-	top:5px;
+	position:absolute;
+	top:1.4px;
+	left:10px;
+}
+.addresspic
+{
+	display:inline-block;
+	position:absolute;
+	bottom:1.4px;
 	left:10px;
 }
 .moneypic
 {
 	height:25px;
 	position:absolute;
-	top:44px;
+	top:37.5px;
 	right:50px;
 }
 .bnav1
