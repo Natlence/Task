@@ -1,0 +1,142 @@
+.body
+{
+	width:100%;
+	margin:0;
+	background-color:#29bde0;
+}
+.top
+{
+	height:50px;
+	display:inline-block;
+}
+.top>img
+{
+	height:25px;
+	width:25px;
+	position:absolute;
+	top:12.5px;
+}
+.toppic1
+{
+	left:20px;
+}
+.toppic2
+{
+	right:20px;
+}
+.topword
+{
+	position:absolute;
+	top:9.8px;
+	left:50%;
+	margin-left:-18px;
+	color:white;
+}
+.one
+{
+	height:50px;
+	width:100%;
+	background-color:#b9e9f5;
+}
+.one>p
+{
+	position:relative;
+	top:9.8px;
+	left:40px;
+}
+.onepic
+{
+	height:35px;
+	width:35px;
+	position:absolute;
+	top:63.1px;
+	right:15px;
+}
+.twopic
+{
+	position:relative;
+	top:-5px;
+	left:55px;
+}
+.two>p
+{
+	font-size:15px;
+	color:white;
+	position:relative;
+	left:55px;
+	top:-5px;
+
+}
+.father
+{
+	height:150px;
+}
+.square
+{
+	height:100px;
+	width:100px;
+	display:inline-block;
+	background-color: #f5c97b;
+	text-align:center;
+	border:solid 5px white;
+	position:relative;
+	left:50%;
+	margin-left:-50px;
+	cursor:pointer;
+}
+.element
+{
+	display:inline-block;
+	position:absolute;
+	top:120px;
+	left:50%;
+	margin-left:-65px;
+	display:none;
+}
+.father:hover .element{
+    display:inline-block;
+}
+.square>p
+{
+	position:relative;
+	top:17.3px;
+}
+.green
+{
+	height:25px;
+	background:#83b09a;
+	position:relative;
+	bottom:-25px;
+	color:white;
+}
+.gap
+{
+	height:20px;
+}
+.bottom
+{
+	height:150px;
+	width:100%;
+	background-color:#29bde0;
+	border:white 1px solid;
+	position:fixed;
+	bottom:0;
+}
+.buttom
+{
+	height:60px;
+	width:40%;
+	background-color:#fbb435;
+	position:relative;
+	top:45px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.buttom>p
+{
+	font-size:20px;
+	color:white;
+	text-align:center;
+	position:relative;
+	top:15px;
+}
