@@ -76,8 +76,17 @@
 	position:relative;
 	top:6.5px;
 	color:grey;
-	width:100%;
+	width:30%;
 	min-width:100%;
+}
+#dropdown-menu
+{
+	width:30%;
+	min-width:100%;
+}
+.dropdown-menu>li
+{
+	text-align:center;
 }
 #tnav2
 {
