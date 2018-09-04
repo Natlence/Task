@@ -27,14 +27,12 @@ content
 	border:solid 1px #c9c9c9;
 	position:relative;
 	background-color:white;
+	text-align:center;
 }
 .first>p
 {
 	display:inline-block;
-	position:relative;
-	left:50%;
-	top:23.8px;
-	margin-left:-90px;
+	margin-top:23.8px;
 	color:#9a9a9a;
 }
 .icon1
@@ -61,39 +59,30 @@ content
 	height:60px;
 	margin:15px;
 	border-bottom:solid 2px #fde1ae;
-}
-.one>p
-{
+	text-align:center;
 	color:#fbb435;
-	margin-left:-36px;
-	top:6.3px;
 }
 .one>p,.two>p,.three>p,.four>p,.five>p
 {
-	position:relative;
 	display:inline-block;
-	left:50%;
-}
-.two,.four,.five
-{
-	height:90px;
-	margin-left:70px;margin-right:70px;
-	background-color:#69d1e9;
-	cursor:pointer;
 }
 .two>p,.four>p,.five>p
 {
+	margin-top: 24.8px;
+}
+.two,.four,.five
+{
+	height:80px;
+	margin-left:70px;margin-right:70px;
+	background-color:#69d1e9;
 	color:white;
-	margin-left:-27px;
-	top:29.8px;
+	text-align:center;
+	cursor:pointer;
 }
 .three
 {
 	height:30px;
 	margin:10px;
-}
-.three>p
-{
+	text-align: center;
 	color:#787878;
-	margin-left:-118.325px;
 }
