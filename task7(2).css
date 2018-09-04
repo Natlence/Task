@@ -82,7 +82,6 @@
 	position:relative;
 	left:50%;
 	margin-left:-50px;
-	cursor:pointer;
 }
 .element
 {
@@ -98,15 +97,14 @@
 }
 .square>p
 {
-	position:relative;
-	top:17.3px;
+	margin-top:17.3px
 }
 .green
 {
 	height:25px;
 	background:#83b09a;
 	position:relative;
-	bottom:-25px;
+	bottom:-8px;
 	color:white;
 }
 .gap
@@ -129,14 +127,15 @@
 	background-color:#fbb435;
 	position:relative;
 	top:45px;
+	text-align:center;
 	margin-right:auto;
 	margin-left:auto;
+	cursor:pointer;
 }
 .buttom>p
 {
 	font-size:20px;
 	color:white;
-	text-align:center;
-	position:relative;
-	top:15px;
+	display:inline-block;
+	margin-top:15px;
 }
