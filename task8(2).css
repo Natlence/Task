@@ -148,6 +148,10 @@
 {
 	background-color: orange;
 }
+.circleactive
+{
+	background-color: orange;
+}
 .primary
 {
 	width:75%;
@@ -195,38 +199,37 @@
 }
 .foot
 {
-	height: 100px;
+	height: 150px;
 	width:100%;
 	background-color:#29b078;
-	position:fixed;
-	bottom:0;
+	position: relative;
 }
 .copyright
 {
 	color:white;
 	width:100%;
 	border:1px green solid;
-	position: fixed;
+	position:absolute;
 	bottom: 0;
 	text-align: center;
 }
 .copyright>p
 {
-	font-size:10px;
+	font-size:12px;
 	margin:0;
 }
 .aboutus
 {
-	height:50px;
+	height:80px;
 	display: inline-block;
 	position:absolute;
 	left:5%;
-	top:5px;
+	top:25px;
 }
 .aboutus>p
 {
 	color:white;
-	font-size:10px;
+	font-size:12px;
 	margin:0;
 }
 .aboutus p:last-child
@@ -235,15 +238,15 @@
 }
 .subweb
 {
-	height:50px;
+	height:80px;
 	display: inline-block;
 	position:absolute;
 	left:20%;
-	top:2px;
+	top:25px;
 }
 .subweb p
 {
-	font-size:10px;
+	font-size:12px;
 	margin:0;
 	color:white;
 	display: inline-block;
@@ -262,17 +265,18 @@
 	text-align: center;
 	display: inline-block;
 	position:absolute;
-	top:5px;
+	top:15px;
 	right: 80px;
 }
 .qrcode>img
 {
-	height:50px;
-	width:50px;
+	height:80px;
+	width:80px;
 }
 .qrcode>p
 {
 	color:white;
 	margin-bottom:0;
-	font-size: 10px;
+	font-size:12px;
 }
+
