@@ -158,20 +158,18 @@
 {
 	border:1px solid #999999;
 }
-.boxitem1,.boxitem2
+.boxitem1
 {
 	border-bottom:1px solid #999999;
-	padding:5px;
+	padding:10px;
 }
-.boxitem3,.boxitem4
+.boxitem2,.boxitem3,.boxitem4
 {
 	border-bottom:1px solid #999999;
-	padding-top: 5px;
-	padding-bottom:5px;
 }
 .boxitem5
 {
-	padding:5px;
+	padding:10px;
 }
 .boxicon img
 {
@@ -202,13 +200,13 @@
 {
 	font-size:0.8rem;
 }
-.boxitem1,.boxitem2
+.boxitem1
 {
 	display: flex;
 	justify-content: center;
 	align-content: center;
 }
-.boxitem3,.boxitem4
+.boxitem3,.boxitem4,.boxitem2
 {
 	display: flex;
 	justify-content:space-around;
@@ -223,29 +221,40 @@
 	color:#999999;
 	font-size:0.8rem;
 }
-.item5
+.item3,.item2,.item4,.item5
 {
-
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+.item3,.item5,.item7
+{
+	border-left:1px solid #999999
+}
+.item6
+{
+	width:30%;
+}
+.item6>p
+{
+	margin-top:25%;
+	margin-left:25%;
+}
+.item7
+{
+	width:70%;
+}
+.item7>div
+{
+	padding-left: 10px;
+	border-bottom: 1px solid #999999
+}
+.item7 div:last-child
+{
+	border-bottom: none;
 }
 .fontred
 {
 	color:red;
-}
-.item6
-{
-	width: 40%;
-}
-.item6>p
-{
-	margin-top:20%;
-}
-.item7
-{
-	width:50%;
-}
-.item3>p,.item2>p,.item4>p,.item5>p,.item7>p,.item8>p,.item9>p
-{
-	/*margin-top:10px;*/
 }
 .item7wordright
 {
@@ -291,15 +300,17 @@
 {
 	height:40px;
 	width:40px;
-	background-color:#29b078;
+	background-color:#093c27;
+	border:white;
 	border-radius: 50px;
 	position:fixed;
 	right:15px;
-	bottom:200px;
+	bottom:50px;
 	padding:5px;
 	font-size: 12px;
 	color:white;
 	text-align: center;
+	z-index: 5;
 }
 .foot
 {
