@@ -228,7 +228,7 @@
 .partner:hover
 .partnerhover
 {
-	box-shadow: darkgrey 10px 10px 30px 5px;
+	box-shadow: darkgrey 0px 0px 5px;
 }
 .partner img
 {
@@ -260,6 +260,18 @@
 .phover
 {
 	width:100%;
+}
+ul
+{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+li a
+{
+	color: #999999;
 }
 .foot
 {
