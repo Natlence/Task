@@ -213,6 +213,10 @@
 	height:80px;
 
 }
+.copartner
+{
+	box-shadow: darkgrey 1px 1px 5px;
+}
 .partnerhover
 {
 	height:80px;
@@ -224,7 +228,7 @@
 .partner:hover
 .partnerhover
 {
-	border:1px solid #e3e3e7;
+	box-shadow: darkgrey 10px 10px 30px 5px;
 }
 .partner img
 {
