@@ -156,11 +156,6 @@
 	margin-left:-20px;
 	color:#29b078;
 }
-.secondary
-{
-	width:20%;
-	float:left;
-}
 .secondtop
 {
 	height:50px;
@@ -222,11 +217,6 @@
 {
 	background-color: orange;
 }
-.primary
-{
-	width:75%;
-	float:right;
-}
 .primarytop
 {
 	display: flex;
@@ -282,7 +272,6 @@
 	.secondtop
 	{
 		text-align: center;
-		margin-left: -25px;
 	}
 	.secondtop>p
 	{
@@ -294,10 +283,6 @@
 	.banner>img
 	{
 		height:100px;
-	}
-	.primary
-	{
-		margin-top:50px;
 	}
 	.secondtop
 	{
