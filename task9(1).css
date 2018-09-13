@@ -224,6 +224,12 @@
     .charnumber
     {
     	text-align: center;
+    	margin-left:0;
+    	border-left:dashed 2px #dedede;
+    }
+    .chargap
+    {
+    	border:0px ;
     }
 }
 .charnumber p:nth-child(2),.charnumber p:nth-child(5)
