@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task10</title>
+	<link rel="stylesheet" type="text/css" href="task10.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+	<link href="https://cdn.bootcss.com/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<!-- 顶部客服热线等 -->
+		<div class="loginbar">
+			<div><p>客服热线：010-594-78634</p></div>
+			<div class="loginfather">
+				<div class="loginhover"><p >登录</p></div>
+			</div>
+			<div class="loginfather">
+				<div class="loginhover"><p>注册</p></div>
+			</div>
+		</div>
+		<!-- 顶部首页等 -->
+		<div class="companyname">
+			<h1 class="chinesename">51包装</h1>
+		    <p class="website">www.51baozhuang.com</p>
+		</div>
+		<div class="homepagebar">
+			<div class="homepagefather">
+				<div class="homepagehover homepagehover1"><p>首页</p></div>
+			</div>
+			<div class="homepagefather">
+				<div class="homepagehover"><p>在线定制</p></div>
+			</div>
+			<div class="homepagefather">
+				<div class="homepagehover"><p>标准箱</p></div>
+			</div>
+			<div class="homepagefather">
+				<div class="homepagehover"><p>品质保障</p></div>
+			</div>
+		</div>
+		<button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="btn">
+				<div class="btnall">
+					<div class="btngrey"></div>
+					<div></div>
+					<div class="btngrey"></div>
+					<div></div>
+					<div class="btngrey"></div>
+				</div>
+			</button>
+		<div class="collapse selectmenu" id="collapseExample">
+			<ul>
+				<li><a href="#">
+					<div class="homepagehover homepagehover1">首&nbsp&nbsp&nbsp页</div>
+				</a></li>
+				<li><a href="#">
+					<div class="homepagehover">在线定制</div>
+				</a></li>
+				<li><a href="#">
+					<div class="homepagehover">标准箱</div>
+				</a></li>
+				<li><a href="#">
+					<div class="homepagehover">品质保障</div>
+				</a></li>
+			</ul>
+	    </div>
+	    <!-- 顶部进度条部分 -->
+	    <div class="progressbar">
+	    	<div>
+	    		<div class="progressfather">
+	    		<div class="progresshover">
+	    			<div class="progresscrossband progresscrossband1"></div>
+	    			<div class="progresscircle progresscircle1">1</div>
+	    			<div class="progressword progressword1">
+	    				<p>1.定制纸箱</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="progressfather">
+	    		<div class="progresshover">
+	    			<div class="progresscrossband"></div>
+	    			<div class="progresscircle">2</div>
+	    			<div class="progressword">
+	    				<p>2.选择数量</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="progressfather">
+	    		<div class="progresshover">
+	    			<div class="progresscrossband"></div>
+	    			<div class="progresscircle">3</div>
+	    			<div class="progressword">
+	    				<p>3.上传附件</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="progressfather">
+	    		<div class="progresshover">
+	    			<div class="progresscrossband"></div>
+	    			<div class="progresscircle">4</div>
+	    			<div class="progressword">
+	    				<p>4.确认下单</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	</div>
+	    </div>
+	</header>
+	<content>
+		<!-- 内容导入语部分 -->
+		<div class="importword">
+			<p>
+				请您按照以下步骤来制定您的纸箱
+			</p>
+		</div>
+		<div style="height: 35px;"></div>
+		<!-- 选择框部分 -->
+		<!-- 选择箱型 -->
+		<div class="boxtype container">
+			<div class="boxtypetop">
+				<img src="pic/boxtype.png">
+				<p>选择箱型</p>
+			</div>
+			<div class="chooseboxtype">
+				<div class="row">
+					<div class="box col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<input type="radio"  id="radio1"  name="radio" />
+						<label class="radioword" for="radio1">对口箱</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="box col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<input type="radio"  id="radio2"  name="radio"/>
+						<label class="radioword" for="radio2">飞机盒</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="box col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<input type="radio"  id="radio3"  name="radio"/>
+						<label class="radioword" for="radio3">天地盖</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="selectall">
+						<div class="selectarrow">
+							<img src="pic/selectarrow.png">
+						</div>
+					  <select>
+					  	<option value ="volvo">Vlalala</option>
+					  	<option value ="saab">lalala</option>
+					  	<option value="opel">lalala</option>
+					  	<option value="audi">lalala</option>
+					  	<option selected="">查看详情</option>
+					  </select>
+					</div>
+				</div>
+			</div>
+			<div class="row gaprow"></div>
+		</div>
+		<!-- 确定尺寸 -->
+		<div class="boxsize container">
+			<div class="boxsizetop">
+				<img src="pic/ruler.png">
+				<p>确定尺寸</p>
+			</div>
+			<div class="row gaprow"></div>
+			<div class="chooseboxsize">
+				<div class="row boxsizerow">
+					<div class="outer col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<input type="radio"  id="radio4"  name="radio1"/>
+						<label class="radioword" for="radio4">外径</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="outer">
+						<div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>长</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					    <div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>宽</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					    <div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>高</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					</div>
+					<div class="selectall">
+						<div class="selectarrow">
+							<img src="pic/selectarrow.png">
+						</div>
+					  <select>
+					  	<option value ="volvo">Vlalala</option>
+					  	<option value ="saab">lalala</option>
+					  	<option value="opel">lalala</option>
+					  	<option value="audi">lalala</option>
+					  	<option selected="">查看详情</option>
+					  </select>
+					</div>
+				</div>
+				<div class="row boxsizerow">
+					<div class="inner col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<input type="radio"  id="radio5"  name="radio1"/>
+						<label class="radioword" for="radio5">内径</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="outer">
+						<div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>长</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					    <div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>宽</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					    <div class="inputsize col-lg-2 col-md-2 col-sm-12 col-xs-12">
+						<p>高</p>
+						<input type="number" class="inputnumber">
+						<p>mm</p>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 选择材料 -->
+		<div class="meterial container">
+			<div class="meterialtop">
+				<img src="pic/scissors.png">
+				<p>选择材料</p>
+			</div>
+			<div class="row gaprow1"></div>
+			<div class="choosemeterial">
+				<div class="row meterialrow">
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xm-12">
+						<input type="radio"  id="radio6"  name="radio2"/>
+						<label class="radioword" for="radio6">三层A瓦优质</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xm-12">
+						<input type="radio"  id="radio7"  name="radio2"/>
+						<label class="radioword" for="radio7">三层A瓦优质</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xm-12">
+						<input type="radio"  id="radio8"  name="radio2"/>
+						<label class="radioword" for="radio8">三层A瓦优质</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xm-12">
+						<input type="radio"  id="radio9"  name="radio2"/>
+						<label class="radioword" for="radio9">三层A瓦优质</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-xm-12">
+						<input type="radio"  id="radio10"  name="radio2"/>
+						<label class="radioword" for="radio10">三层A瓦优质</label>
+						<div class="whitepoint"></div>
+					</div>
+					<div class="selectall selectall1">
+						<div class="selectarrow">
+							<img src="pic/selectarrow.png">
+						</div>
+					  <select>
+					  	<option value ="volvo">Vlalala</option>
+					  	<option value ="saab">lalala</option>
+					  	<option value="opel">lalala</option>
+					  	<option value="audi">lalala</option>
+					  	<option selected="">查看详情</option>
+					  </select>
+					</div>
+				</div>
+				<!-- 提交下一步 -->
+				<div class="row">
+					<div class="nextstep">
+						<div class="nextstepbtn col-lg-4 col-md-4 col-sm-6 col-xs-6 col-lg-offset-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-3">
+							<button id="nextbtn" class="btn btn-primary active" type="button" aria-pressed="true">下一步
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="height:50px"></div>
+			</div>
+		</div>
+	</content>
+	<!-- 底部 -->
+	<footer>
+		<div class="bottom">
+			<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bottomrow bottomfirstrow">
+				<p>51包装网-纸箱包装首选服务平台</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bottomrow">
+				<div class="aboutusfather col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="aboutushover">关于我们</p>
+				</div>
+				<div class="aboutusfather col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="aboutushover">配送流程</p>
+				</div>
+				<div class="aboutusfather col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="aboutushover">联系我们</p>
+				</div>
+				<div class="aboutusfather col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="aboutushover">下单指南</p>
+				</div>
+				<div class="aboutusfather col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<p class="aboutushover">媒体介绍</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bottomrow">
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+					<p>TEL:400-0000-0000</p>
+				    <p>企业QQ：123456789</p>
+				    <p>微信号：123564845</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 qrcode">
+					<img src="pic/qrcode.png">
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="mostbottom">
+			<p>北京五一包装科技有限公司Copyright@2015&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp51baozhuang.com015 </p>
+		</div>
+	</footer>
+	 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
