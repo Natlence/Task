@@ -516,6 +516,15 @@ label:after
 	height:30px;
 	width:25px;
 }
+.box-btn-select
+{
+	background-image: url(pic/selectarrow.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none; 
+}
 #dropdownMenu
 {
 	position: absolute;
@@ -557,9 +566,13 @@ label:after
 		margin-bottom: 5px;
 	}
 	.boxsizerow
-{
-	padding-bottom: 10px;
-}
+	{
+		padding-bottom: 10px;
+	}
+	.outerrow,.innerrow
+	{
+		text-align: center;
+	}
 }
 @media screen and (min-width:768px) and (max-width:992px )
 {
@@ -568,15 +581,11 @@ label:after
 		margin-bottom: 5px;
 	}
 	.boxsizerow
-{
-	padding-bottom: 10px;
-}
+	{
+		padding-bottom: 10px;
+	}
 }
 /*确定材料样式*/
-/*.meterialrow,.boxsizerow
-{
-	padding-top:20px;
-}*/
 /*下一步样式*/
 .nextstep
 {
