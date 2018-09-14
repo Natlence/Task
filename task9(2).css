@@ -35,6 +35,18 @@
 	background-color: #29b078;
 	position: relative;
 }
+.mainnavlogo>img
+{
+	height:35px;
+	width:auto;
+}
+.mainnavlogo
+{
+	display: inline-block;
+	position: absolute;
+	left:30px;
+	top:2.5px;
+}
 .navword
 {
 	position:absolute;
