@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: #eff0f4; }
+
+.inall, .navbar, .number, .password, .login {
+  height: 3rem;
+  width: 100%;
+  background-color: #5fc0cd;
+  margin-top: 2rem; }
+
+.picsize, .number > img:first-child, .password > img:first-child, .number > img:nth-child(2), .password > img:nth-child(2) {
+  height: 20px;
+  width: 18px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.fonts, .navbar > a, .login, .navbar > div, .forget {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none; }
+
+.center, .login, .navbar, .number, .password {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.side, .navbar > a, .forget {
+  position: absolute; }
+
+div {
+  display: inline-block; }
+
+.navbar {
+  height: 3.4rem;
+  margin-top: 0px; }
+
+.number, .password {
+  background-color: white; }
+
+.number > img:nth-child(2), .password > img:nth-child(2) {
+  width: 2px; }
+
+.number, .password {
+  justify-content: left; }
+
+.navbar > a, .forget {
+  font-size: 1rem; }
+
+.navbar > a:first-child {
+  left: 2rem; }
+
+.navbar > a:last-child, .forget {
+  right: 2rem; }
+
+.forget {
+  color: #83ccd7;
+  margin-top: 10px; }
+
+/*# sourceMappingURL=task11.css.map */
