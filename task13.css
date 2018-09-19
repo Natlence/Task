@@ -1,0 +1,34 @@
+/*背景颜色*/
+.bgb{background-color: #29bde0;}
+.bgb-{background-color: #b9e9f5;}
+.bgr{background-color: #f66f6f;}
+.bgy{background-color: #fbb435;}
+.bgg{background-color: #83b09a;}
+.bgw{background-color: white;}
+/*边框*/
+.bow{border:solid 3px white;}
+/*字体颜色*/
+.fcw{color:white;}
+.fcb{color:black;}
+.fcy{color:#ffc865;}
+.fcgrey{color:#b7b7b7;}
+.fcgrey-{color:#c7c7c7;}
+/*字体大小*/
+.fsb{font-size: 1.2rem;}
+.fsn{font-size: 1rem;}
+.fss{font-size: 0.8rem;}
+.fsxl{font-size: 1.5rem;}
+/*宽度*/
+.w10{width:100%;}
+.w9{width: 90%;}
+.w8{width: 80%;}
+.w7{width: 70%;}
+.w6{width: 60%;}
+.w5{width: 50%;}
+.w4{width: 40%;}
+.w3{width: 30%;}
+.w2{width: 20%;}
+.w1{width: 10%;}
+/*display*/
+.dpb{display: inline-block;}
+.dpf{display: flex;}
