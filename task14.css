@@ -1,0 +1,126 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/*背景颜色*/
+.bgg {
+  background-color: #29b078; }
+
+.bgw {
+  background-color: white; }
+
+/*字体颜色*/
+.fcw {
+  color: white; }
+
+.fcgrey {
+  color: #999999; }
+
+.fcg {
+  color: #29b078; }
+
+/*字体大小*/
+.fsxs {
+  font-size: 0.8rem; }
+
+.fssm {
+  font-size: 0.9rem; }
+
+.fsmd {
+  font-size: 1rem; }
+
+.fsl {
+  font-size: 1.1rem; }
+
+.fsxl {
+  font-size: 1.2rem; }
+
+/*字体加粗*/
+.fwb {
+  font-weight: bold; }
+
+/*display*/
+.dis-in {
+  display: inline-block; }
+
+.dis-flex {
+  display: flex; }
+
+/*position*/
+.po-ab {
+  position: absolute; }
+
+.po-re {
+  position: relative; }
+
+.po-fix {
+  position: fixed; }
+
+/*center*/
+.text-cen {
+  text-align: center; }
+
+.ali-cen {
+  align-items: center; }
+
+.just-cen {
+  justify-content: center; }
+
+.nav .topnav {
+  height: 2rem; }
+  .nav .topnav p {
+    left: 1rem; }
+  .nav .topnav div {
+    right: 1rem; }
+  .nav .topnav img {
+    padding: 0 0.2rem; }
+.nav .nav-bar {
+  height: 2.5rem;
+  width: 100%; }
+  .nav .nav-bar .nav-ul {
+    list-style: none;
+    padding: 8px;
+    float: right; }
+    .nav .nav-bar .nav-ul .nav-li {
+      display: inline-block;
+      padding: 0 10px;
+      border-bottom: 0.1rem solid transparent; }
+      .nav .nav-bar .nav-ul .nav-li a {
+        text-decoration: none; }
+  .nav .nav-bar input[type="checkbox"] {
+    display: none; }
+  .nav .nav-bar #menu:checked ~ .nav-ul {
+    visibility: visible; }
+  @media screen and (max-width: 768px) {
+    .nav .nav-bar .nav-btn {
+      display: block;
+      float: right;
+      padding: 0.2rem 0.6rem;
+      margin: 0 0.3rem;
+      border: 0.1rem solid #fff;
+      border-radius: 0.5rem;
+      background-color: #29b078;
+      cursor: pointer; }
+    .nav .nav-bar .icon-bar {
+      display: block;
+      width: 1.5rem;
+      height: 0.1rem;
+      margin: 0.4rem 0;
+      background-color: #888; }
+    .nav .nav-bar .nav-ul {
+      background-color: #29b078;
+      float: none;
+      clear: both;
+      display: flex;
+      flex-direction: column;
+      visibility: hidden; }
+      .nav .nav-bar .nav-ul .nav-li {
+        margin-bottom: 0.2rem;
+        text-align: center; } }
+
+main img {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=task14.css.map */
